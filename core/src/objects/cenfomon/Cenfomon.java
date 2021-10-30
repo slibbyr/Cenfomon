@@ -1,4 +1,4 @@
 package objects.cenfomon;
 
-public class Confomon {
+public class Cenfomon {
 }
