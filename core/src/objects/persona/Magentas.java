@@ -1,4 +1,4 @@
 package objects.persona;
 
-public class Maegentas {
+public class Magentas {
 }

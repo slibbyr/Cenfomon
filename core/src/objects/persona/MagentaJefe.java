@@ -1,4 +1,4 @@
 package objects.persona;
 
-public class MagentaJefe {
+public class MagentaJefe extends Magentas {
 }
