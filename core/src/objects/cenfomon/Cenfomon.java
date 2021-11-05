@@ -12,7 +12,7 @@ public class Cenfomon {
     private int _Experiencia;
     private int _Nivel;
 
-    public Cenfomon(String _Nombre, String _Tipo,String _Tipo2, String _Genero, String _Descripcion, String _Textura, String _lugarFrecuentado, int _Salud, int _Experiencia, int _Nivel) {
+    public Cenfomon(String _Nombre, String _Tipo, String _Tipo2, String _Genero, String _Descripcion, String _Textura, String _lugarFrecuentado, int _Salud, int _Experiencia, int _Nivel) {
         this._Nombre = _Nombre;
         this._Tipo = _Tipo;
         this._Tipo2 = _Tipo2;
