@@ -12,4 +12,17 @@ public class TipoElectrico extends Cenfomon {
     public TipoElectrico(String _Nombre, String _Tipo2, String _Tipo, String _Genero, String _Descripcion, String _Textura, String _lugarFrecuentado) {
         super(_Nombre, _Tipo2, _Tipo, _Genero, _Descripcion, _Textura, _lugarFrecuentado);
     }
+
+    public TipoElectrico(){
+        super.set_Nombre ("Monan");
+        super.set_Tipo("Electrico");
+        super.set_Tipo2("Normal");
+        super.set_Genero("");
+        super.set_Descripcion("Es de los cenfomones iniciales. Es un Cenfomon tipo electrico/normal de la primera generación");
+        super.set_Textura("");
+        super.set_lugarFrecuentado("");
+        super.set_Salud(100);
+        super.set_Experiencia(0);
+        super.set_Nivel(1);
+    }
 }

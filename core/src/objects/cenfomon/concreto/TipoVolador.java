@@ -12,4 +12,16 @@ public class TipoVolador extends Cenfomon {
     public TipoVolador(String _Nombre, String _Tipo2, String _Tipo, String _Genero, String _Descripcion, String _Textura, String _lugarFrecuentado) {
         super(_Nombre, _Tipo2, _Tipo, _Genero, _Descripcion, _Textura, _lugarFrecuentado);
     }
+
+    public TipoVolador(){
+        super.set_Nombre ("Ebren");
+        super.set_Tipo("Volador");
+        super.set_Genero("");
+        super.set_Descripcion("Es de los cenfomones iniciales. Es un Cenfomon tipo volador de la primera generación");
+        super.set_Textura("");
+        super.set_lugarFrecuentado("");
+        super.set_Salud(100);
+        super.set_Experiencia(0);
+        super.set_Nivel(1);
+    }
 }
