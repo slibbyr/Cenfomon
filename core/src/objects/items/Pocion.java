@@ -1,9 +1,11 @@
 package objects.items;
 
 import enums.EPociones;
+import creador.abstractos.IFabricaAbstracta_Pocion;
+import objects.abstractos.IPocion;
 import objects.cenfomon.Cenfomon;
 
-public class Pocion {
+public class Pocion implements IPocion {
     private double porcentajeRecuperacion;
     private EPociones tipo;
 
