@@ -1,4 +1,4 @@
-package utilities;
+package enums;
 
  public enum ETipoCenfomon {
         AGUA,

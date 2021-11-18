@@ -4,4 +4,5 @@ public enum EPociones {
     NORMAL,
     MEDIA,
     MAXIMA,
+    REVIVIR,
 }

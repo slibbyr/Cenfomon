@@ -6,7 +6,7 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.utils.ScreenUtils;
 import gestores.GestorMetodoFabrica;
 import objects.cenfomon.Cenfomon;
-import utilities.ETipoCenfomon;
+import enums.ETipoCenfomon;
 
 public class Main extends ApplicationAdapter {
 	SpriteBatch batch;
