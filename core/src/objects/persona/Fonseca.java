@@ -1,4 +1,5 @@
 package objects.persona;
 
-public class Fonseca {
+public class Fonseca extends Persona{
+
 }
