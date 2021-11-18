@@ -13,6 +13,16 @@ public class TipoFuego extends Cenfomon {
         super(_Nombre, _Tipo2, _Tipo, _Genero, _Descripcion, _Textura, _lugarFrecuentado);
     }
 
+    @Override
+    public String metamorfosis() {
+        return null;
+    }
+
+    @Override
+    public String metamorfosis2() {
+        return null;
+    }
+
     public TipoFuego(){
         super.set_Nombre ("Fenixluna");
         super.set_Tipo("Fuego");

@@ -1,6 +1,6 @@
 package objects.cenfomon;
 
-public class Cenfomon {
+public abstract class Cenfomon {
     private String _Nombre;
     private String _Tipo;
     private String _Tipo2;
@@ -41,10 +41,9 @@ public class Cenfomon {
         this._Nivel = 0;
     }
 
-    public String metamorfosis(String pNombre){
-        this._Nombre = pNombre;
-        return "El cenfomon evolucinó en :"+ pNombre;
-    }
+    public abstract String metamorfosis( );
+
+    public abstract String metamorfosis2( );
 
     public String get_Nombre() {
         return _Nombre;
