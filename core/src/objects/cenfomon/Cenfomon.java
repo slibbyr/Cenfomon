@@ -1,6 +1,6 @@
 package objects.cenfomon;
 
-public class Cenfomon {
+public abstract class Cenfomon {
     private String _Nombre;
     private String _Tipo;
     private String _Tipo2;
@@ -9,6 +9,7 @@ public class Cenfomon {
     private String _Textura;
     private String _lugarFrecuentado;
     private int _Salud;
+    private int _SaludMaxima;
     private int _Experiencia;
     private int _Nivel;
 
@@ -41,10 +42,9 @@ public class Cenfomon {
         this._Nivel = 0;
     }
 
-    public String metamorfosis(String pNombre){
-        this._Nombre = pNombre;
-        return "El cenfomon evolucinó en :"+ pNombre;
-    }
+    public abstract String metamorfosis( );
+
+    public abstract String metamorfosis2( );
 
     public String get_Nombre() {
         return _Nombre;
@@ -125,4 +125,15 @@ public class Cenfomon {
     public void set_Nivel(int _Nivel) {
         this._Nivel = _Nivel;
     }
+
+    public int get_SaludMaxima() {
+        return _SaludMaxima;
+    }
+
+    public void set_SaludMaxima(int _SaludMaxima) {
+        this._SaludMaxima = _SaludMaxima;
+    }
+
+
+
 }

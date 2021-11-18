@@ -1,7 +1,10 @@
 package creador;
 
 import objects.cenfomon.Cenfomon;
+import utilities.ETipoCenfomon;
+
 
 public interface ICenfomon {
-    Cenfomon crearCenfomon();
+    Cenfomon crearCenfomon(ETipoCenfomon tipoCenfomon);
+
 }

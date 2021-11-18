@@ -13,6 +13,16 @@ public class TipoNormal extends Cenfomon {
         super(_Nombre, _Tipo2, _Tipo, _Genero, _Descripcion, _Textura, _lugarFrecuentado);
     }
 
+    @Override
+    public String metamorfosis() {
+        return null;
+    }
+
+    @Override
+    public String metamorfosis2() {
+        return null;
+    }
+
     public TipoNormal(){
         super.set_Nombre ("Corder");
         super.set_Tipo("Normal");

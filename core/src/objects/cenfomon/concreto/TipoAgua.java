@@ -12,6 +12,16 @@ public class TipoAgua extends Cenfomon {
         super(_Nombre, _Tipo,_Tipo2, _Genero, _Descripcion, _Textura, _lugarFrecuentado);
     }
 
+    @Override
+    public String metamorfosis() {
+        return null;
+    }
+
+    @Override
+    public String metamorfosis2() {
+        return null;
+    }
+
     public TipoAgua(){
         super.set_Nombre ("Osotias");
         super.set_Tipo("Agua");

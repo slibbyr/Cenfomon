@@ -4,6 +4,9 @@ import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.utils.ScreenUtils;
+import gestores.GestorMetodoFabrica;
+import objects.cenfomon.Cenfomon;
+import utilities.ETipoCenfomon;
 
 public class Main extends ApplicationAdapter {
 	SpriteBatch batch;
@@ -27,5 +30,11 @@ public class Main extends ApplicationAdapter {
 	public void dispose () {
 		batch.dispose();
 		img.dispose();
+	}
+
+	public static void main(String[] args) {
+		GestorMetodoFabrica metodoFabrica =new GestorMetodoFabrica();
+		Cenfomon cenfomon =  metodoFabrica.nuevocenfomon(ETipoCenfomon.VOLADOR);
+		System.out.println(cenfomon.get_Nombre());
 	}
 }
