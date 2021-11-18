@@ -9,6 +9,7 @@ public abstract class Cenfomon {
     private String _Textura;
     private String _lugarFrecuentado;
     private int _Salud;
+    private int _SaludMaxima;
     private int _Experiencia;
     private int _Nivel;
 
@@ -124,4 +125,15 @@ public abstract class Cenfomon {
     public void set_Nivel(int _Nivel) {
         this._Nivel = _Nivel;
     }
+
+    public int get_SaludMaxima() {
+        return _SaludMaxima;
+    }
+
+    public void set_SaludMaxima(int _SaludMaxima) {
+        this._SaludMaxima = _SaludMaxima;
+    }
+
+
+
 }
