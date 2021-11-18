@@ -4,7 +4,7 @@ package creador.concretos;
 import creador.ICenfomon;
 import objects.cenfomon.Cenfomon;
 import objects.cenfomon.concreto.*;
-import utilities.ETipoCenfomon;
+import enums.ETipoCenfomon;
 
 
 public class FabricaCenfomon implements ICenfomon{
