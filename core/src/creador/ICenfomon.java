@@ -1,7 +1,7 @@
 package creador;
 
 import objects.cenfomon.Cenfomon;
-import utilities.ETipoCenfomon;
+import enums.ETipoCenfomon;
 
 
 public interface ICenfomon {

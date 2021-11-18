@@ -3,7 +3,7 @@ package gestores;
 import creador.ICenfomon;
 import creador.concretos.FabricaCenfomon;
 import objects.cenfomon.Cenfomon;
-import utilities.ETipoCenfomon;
+import enums.ETipoCenfomon;
 
 public class GestorMetodoFabrica {
 
