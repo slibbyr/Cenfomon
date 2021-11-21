@@ -12,6 +12,7 @@ public class Pocion implements IPocion {
     private int costoPocion=0;
 
     public Pocion(EPociones tipo) {
+        this.tipo=tipo;
         switch (tipo) {
             case NORMAL:
                 porcentajeRecuperacion = 0.20;
@@ -40,4 +41,9 @@ public class Pocion implements IPocion {
     public EPociones getTipo() {
         return tipo;
     }
+
+    public int getCostoPocion() {
+        return costoPocion;
+    }
+
 }

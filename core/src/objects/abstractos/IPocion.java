@@ -5,5 +5,6 @@ import objects.cenfomon.Cenfomon;
 
 public interface IPocion {
     double curar(Cenfomon cenfomon);
-    public EPociones getTipo();
+    EPociones getTipo();
+    int getCostoPocion();
 }
