@@ -1,12 +1,13 @@
 package objects.items;
 
 import enums.EPiedra;
+import objects.abstractos.IPiedra;
 
-public class Piedra {
+public class Piedra implements IPiedra {
 
     private EPiedra tipoPiedra;
 
-    private int costoPiedra= 100;
+    private int costoPiedra;
 
     public Piedra() {
         this.setTipoPiedra(tipoPiedra);
@@ -14,6 +15,15 @@ public class Piedra {
 
     public Piedra(EPiedra tipoPiedra) {
         this.tipoPiedra = tipoPiedra;
+
+        switch (tipoPiedra){
+            case OSCURA:
+                costoPiedra=100;
+                break;
+            case FUEGO:
+                costoPiedra=200;
+                break;
+        }
     }
 
     public EPiedra getTipoPiedra() {
