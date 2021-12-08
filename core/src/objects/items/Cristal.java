@@ -2,8 +2,9 @@ package objects.items;
 
 import enums.ECristales;
 import objects.abstractos.ICristal;
+import objects.abstractos.IItem;
 
-public class Cristal implements ICristal {
+public class Cristal implements ICristal,IItem {
     private int costo;
     private ECristales tipoCristal;
 

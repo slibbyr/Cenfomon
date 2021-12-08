@@ -13,13 +13,10 @@ import enums.ECristales;
 import enums.EPiedra;
 import enums.EPociones;
 import objects.abstractos.ICristal;
-import objects.abstractos.IItem;
 import objects.abstractos.IPiedra;
 import objects.abstractos.IPocion;
-import objects.persona.PersonajePrincipal;
 
-public class Tienda implements ItiendaEstandar{
-
+public class TiendaPremiun implements ItiendaEstandar{
 
     public IPocion comprarPocion(EPociones ePociones){
         IFabricaAbstracta_Pocion pocion;
@@ -62,5 +59,4 @@ public class Tienda implements ItiendaEstandar{
         }
         return resultado;
     }
-
 }
