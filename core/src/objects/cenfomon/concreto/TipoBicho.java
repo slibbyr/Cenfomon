@@ -1,6 +1,7 @@
 package objects.cenfomon.concreto;
 
 import objects.cenfomon.Cenfomon;
+import objects.pelea.Ataque;
 
 public class TipoBicho extends Cenfomon {
 
@@ -33,5 +34,6 @@ public class TipoBicho extends Cenfomon {
         super.set_Salud(100);
         super.set_Experiencia(0);
         super.set_Nivel(1);
+        super.setAtaque(new Ataque(100,"Defensa"));
     }
 }

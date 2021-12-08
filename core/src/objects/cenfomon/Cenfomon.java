@@ -1,5 +1,9 @@
 package objects.cenfomon;
 
+import enums.ETipoCenfomon;
+import objects.cenfomon.metamorfosis.Metamorfosis;
+import objects.pelea.Ataque;
+
 public abstract class Cenfomon {
     private String _Nombre;
     private String _Tipo;
@@ -12,6 +16,8 @@ public abstract class Cenfomon {
     private int _SaludMaxima;
     private int _Experiencia;
     private int _Nivel;
+    private Ataque ataque;
+    private Metamorfosis metamorfosis;
 
     public Cenfomon() {
     }
@@ -134,11 +140,26 @@ public abstract class Cenfomon {
         this._SaludMaxima = _SaludMaxima;
     }
 
-    /* Metodo para usar el item de  galletaAtaque
-    public void aumentoAtaque(Cenfomon tmpCenfomon){
+
+    public Ataque getAtaque() {
+        return ataque;
+    }
+
+    public void setAtaque(Ataque ataque) {
+        this.ataque = ataque;
+    }
+
+    public Metamorfosis getMetamorfosis() {
+        return metamorfosis;
+    }
 
 
-    }*/
 
+    public void setMetamorfosis(Metamorfosis metamorfosis) {
+        this.metamorfosis = metamorfosis;
+    }
 
+    public  void evolucionar(){
+        this.metamorfosis.evolucionar(ETipoCenfomon.valueOf(this._Tipo),this );
+    }
 }

@@ -1,9 +1,10 @@
 package objects.items;
 
 import enums.EPiedra;
+import objects.abstractos.IItem;
 import objects.abstractos.IPiedra;
 
-public class Piedra implements IPiedra {
+public class Piedra implements IPiedra, IItem {
 
     private EPiedra tipoPiedra;
 
