@@ -134,6 +134,11 @@ public abstract class Cenfomon {
         this._SaludMaxima = _SaludMaxima;
     }
 
+    /* Metodo para usar el item de  galletaAtaque
+    public void aumentoAtaque(Cenfomon tmpCenfomon){
+
+
+    }*/
 
 
 }
