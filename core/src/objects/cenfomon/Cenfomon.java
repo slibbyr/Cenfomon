@@ -140,6 +140,7 @@ public abstract class Cenfomon {
         this._SaludMaxima = _SaludMaxima;
     }
 
+
     public Ataque getAtaque() {
         return ataque;
     }
@@ -151,6 +152,8 @@ public abstract class Cenfomon {
     public Metamorfosis getMetamorfosis() {
         return metamorfosis;
     }
+
+
 
     public void setMetamorfosis(Metamorfosis metamorfosis) {
         this.metamorfosis = metamorfosis;
